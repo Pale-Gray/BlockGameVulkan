@@ -1,2 +1,1 @@
-# BlockGameVulkan
-Writing BlockGame with a Vulkan backend.
+Writing the game with a Vulkan backend.

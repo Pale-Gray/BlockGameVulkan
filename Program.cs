@@ -40,8 +40,11 @@ class Program
 
             Toolkit.Window.ProcessEvents(false);
 
+            Renderer.DrawTriangle();
+
         }
 
+        Renderer.Wait();
         Renderer.Unload();
         Toolkit.Window.Destroy(_window);
 

@@ -29,7 +29,6 @@ class Program
         Toolkit.Window.SetTitle(_window, "Game in Vulkan");
         Toolkit.Window.SetSize(_window, (800, 600));
         Toolkit.Window.SetMode(_window, WindowMode.Normal);
-        Toolkit.Window.SetBorderStyle(_window, WindowBorderStyle.FixedBorder);
 
         EventQueue.EventRaised += EventRaised;
 

@@ -520,7 +520,7 @@ public unsafe class Renderer
         rasterizationStateCreateInfo.depthClampEnable = (int) Vk.False;
         rasterizationStateCreateInfo.polygonMode = VkPolygonMode.PolygonModeFill;
         rasterizationStateCreateInfo.cullMode = VkCullModeFlagBits.CullModeBackBit;
-        rasterizationStateCreateInfo.frontFace = VkFrontFace.FrontFaceClockwise;
+        rasterizationStateCreateInfo.frontFace = VkFrontFace.FrontFaceCounterClockwise;
         rasterizationStateCreateInfo.lineWidth = 1.0f;
         rasterizationStateCreateInfo.depthBiasEnable = (int) Vk.False;
 
